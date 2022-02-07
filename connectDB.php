@@ -1,8 +1,5 @@
 <?php
-$servername = "localhost";
-$dbname = "tp1";
-$dbuser = "root";
-$dbpassword = "root";
+require "params.php";
 
 try {
   $bddConnect = new PDO("mysql:host=".$servername.";dbname=".$dbname, $dbuser, $dbpassword);
