@@ -7,11 +7,16 @@
 
 
 ex :
+
 ``
-
-
   $servername = "localhost";
+  ``  
+  ``
   $dbname = "nom_de_ma_BDD";
+  ``  
+  ``
   $dbuser = "nom_utilisateur";
+  ``  
+  ``
   $dbpassword = "mon_mot_de_passe_secret";
 ``
